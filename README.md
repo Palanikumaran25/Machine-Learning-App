@@ -1,4 +1,4 @@
 # 🤖 Machine Learning App:
-This is a machine learning app 
+1.This is a machine learning app 
 
-This is app builds as machine Learning model!
+2.This is app builds as machine Learning model!

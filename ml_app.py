@@ -21,7 +21,14 @@ with st.expander('Data'):
   y
 
 with st.expander("Data visualization"): 
+    st.header("Bar_chart")
+    st.bar_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
+    st.header("Scatter_chart")
     st.scatter_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
+    st.header("Line_chart")
+    st.line_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')
+    st.header("Area_chart")  
+    st.area_chart(data=df, x='bill_length_mm', y='body_mass_g', color='species')  
     
 with st.sidebar: 
     st.header('Input features')

@@ -119,3 +119,14 @@ st.dataframe(df_prediction_proba,
 
 penguins_species = np.array(['Adelie', 'Chinstrap', 'Gentoo'])
 st.success(str(penguins_species[prediction][0])) 
+
+st.markdown(
+      """
+      <style>
+      [data-testid="stSidebar"] {
+          background-color: #556B2F;
+      }
+      </style>
+      """,
+      unsafe_allow_html=True
+)
